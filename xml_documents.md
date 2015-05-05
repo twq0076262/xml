@@ -6,7 +6,7 @@
 
 下面提供了一个简单的 XML 文档示例：
 
-```xml
+```
 <?xml version="1.0"?>
 <contact-info>
 	<name>Tanmay Patil</name>

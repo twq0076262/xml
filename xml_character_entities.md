@@ -36,13 +36,13 @@ HTML 和 XML 都有一些符号被保留使用，它们不能在 XML 代码中�
 
 十进制数字引用基本语法：
 
-```xml
+```
 &# decimal number ;
 ```
 
 十六进制数字引用基本语法：
 
-```xml
+```
 &#x Hexadecimal number ;
 ```
 

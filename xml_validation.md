@@ -19,7 +19,7 @@ __验证__ 就是对 XML 文档进行验证的过程。如果文档内容与元�
 
 下面是一个格式良好的 XML 文档示例：
 
-```xml
+```
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <!DOCTYPE address
 [

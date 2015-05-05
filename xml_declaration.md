@@ -6,7 +6,7 @@
 
 下面展示了 XML 声明的语法：
 
-```xml
+```
 <?xml
 	version="version_number"
 	encoding="encoding_declaration"
@@ -60,24 +60,24 @@ XML 声明应该遵守下列规则：
 
 不带参数的 XML 声明：
 
-```xml
+```
 <?xml >
 ```
 
 带版本定义的 XML 声明：
 
-```xml
+```
 <?xml version="1.0">
 ```
 
 带所有参数定义的 XML 声明：
 
-```xml
+```
 <?xml version="1.0" encoding="UTF-8" standalone="no" >
 ```
 
 所有参数定义使用单引号包裹值的 XML 声明：
 
-```xml
+```
 <?xml version='1.0' encoding='iso-8859-1' standalone='no' >
 ```

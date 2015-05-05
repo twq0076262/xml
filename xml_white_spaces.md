@@ -8,13 +8,13 @@ XML 文档包含两个类型的空白 __(a)__ 有效空白和 __(b)__ 无效的�
 
 有效空白在元素同时包含文本和标记时发生。例如：
 
-```xml
+```
 <name>TanmayPatil</name>
 ```
 
 和
 
-```xml
+```
 <name>Tanmay Patil</name>
 ```
 
@@ -24,13 +24,13 @@ XML 文档包含两个类型的空白 __(a)__ 有效空白和 __(b)__ 无效的�
 
 无效空白意味着只允许在元素内容中出现。例如：
 
-```xml
+```
 <address.category="residence">
 ```
 
 或者
 
-```xml
+```
 <address....category="..residence">
 ```
 
@@ -38,7 +38,7 @@ XML 文档包含两个类型的空白 __(a)__ 有效空白和 __(b)__ 无效的�
 
 我们还给元素附加一个特殊的属性 __xml:space__。这表示元素的空白不应该由应用程序移除。我们可以设置这个属性为 __default__ 或者 __preserve__。正如下面的例子所示：
 
-```xml
+```
 <!ATTLIST address xml:space (default|preserve) 'preserve'>
 ```
 

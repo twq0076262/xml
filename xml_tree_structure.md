@@ -8,7 +8,7 @@
 
 下面的示例演示了简单的 XML 树结构：
 
-```xml
+```
 <?xml version="1.0"?>
 <Company>
 	<Employee>

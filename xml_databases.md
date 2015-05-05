@@ -23,7 +23,7 @@ XML 数据库有两大类：
 
 下面的例子演示了 XML 数据库：
 
-```xml
+```
 <?xml version="1.0"?>
 <contact-info>
 	<contact1>

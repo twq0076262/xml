@@ -6,7 +6,7 @@ XML 模式通常也被称做 XML 模式定义（XSD）。它被用来描述和�
 
 我们需要在 XML 文档中声明模式，如下所示：
 
-```xml
+```
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 ```
 
@@ -14,7 +14,7 @@ XML 模式通常也被称做 XML 模式定义（XSD）。它被用来描述和�
 
 下面的示例展示了如何使用模式：
 
-```xml
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 <xs:element name="contact">
@@ -35,7 +35,7 @@ XML 模式背后的基本思想就是描述 XML 文档可以接受的合法格�
 
 正如我们在 [XML 元素](xml_elements.md) 一章中所看到的，元素就是 XML 文档构建快。在 XSD 内可以像下面这样定义元素：
 
-```xml
+```
 <xs:element name="x" type="y"/>
 ```
 
@@ -45,13 +45,13 @@ XML 模式背后的基本思想就是描述 XML 文档可以接受的合法格�
 
 __简单类型：__简单类型的元素只能用于文本上下文中。一些预定义的简单类型有：xs:integer，xs:boolean，xs:string，xs:data。例如：
 
-```xml
+```
 <xs:element name="phone_number" type="xs:int" />
 ```
 
 __复杂类型：__复杂类型就是其他元素定义的容器。允许我们指定哪些子元素可以包含元素以及为 XML 文档提供一些结构。例如：
 
-```xml
+```
 <xs:element name="Address">
 	<xs:complexType>
 		<xs:sequence>
@@ -67,7 +67,7 @@ __复杂类型：__复杂类型就是其他元素定义的容器。允许我们�
 
 __全局类型：__对于全局类型，我们可以在文档中定义独立的类型，它还可以使用所有其他引用。例如，假设我们想针对不同的公司地址概括 _person_ 和 _company_。这种情况下，我们可以定义一个如下所示的通用类型：
 
-```xml
+```
 <xs:element name="AddressType">
 	<xs:complexType>
 		<xs:sequence>
@@ -80,7 +80,7 @@ __全局类型：__对于全局类型，我们可以在文档中定义独立的�
 
 然后在下面的示例中使用这个类型：
 
-```xml
+```
 <xs:element name="Address1">
 	<xs:complexType>
 		<xs:sequence>
@@ -105,6 +105,6 @@ __全局类型：__对于全局类型，我们可以在文档中定义独立的�
 
 XSD 中的属性提供了额外的元素信息。带 _name_ 和 _type_ 属性（property）的属性（attribute）如下所示：
 
-```xml
+```
 <xs:attribute name="x" type="y"/>
 ```

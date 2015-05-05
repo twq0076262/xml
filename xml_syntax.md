@@ -2,7 +2,7 @@
 
 本章会带你通过简单的语法规则编写一个 XML 文档。下面是一个完整的 XML 文档：
 
-```xml
+```
 <?xml version="1.0"?>
 <concat-info>
 <name>Tanmay Patil</name>
@@ -26,7 +26,7 @@
 
 XML 文档可以有一个可选的 XML 声明。它可以写作如下形式：
 
-```xml
+```
 <?xml version="1.0" encoding="UTF-8"?>
 ```
 
@@ -43,7 +43,7 @@ XML 文档可以有一个可选的 XML 声明。它可以写作如下形式：
 
 XML 文件的结构由几个 XML 元素组成，也叫做 XML 节点或 XML 标签。XML 元素的名称使用尖括号 `< >` 闭合，如下所示：
 
-```xml
+```
 <element>
 ```
 
@@ -51,13 +51,13 @@ XML 文件的结构由几个 XML 元素组成，也叫做 XML 节点或 XML 标�
 
 __元素语法：__ 每个 XML 元素都需要使用起始和结束元素闭合，如下所示：
 
-```xml
+```
 <element>....</element>
 ```
 
 或者简写形式，就像这样：
 
-```xml
+```
 <element/>
 ```
 
@@ -65,7 +65,7 @@ __元素嵌套：__ 一个 XML 元素可以包含多个 XML 元素作为它的�
 
 下面的例子展示了不正确的嵌套标签：
 
-```xml
+```
 <?xml version="1.0"?>
 <contact-info>
 <company>TutorialsPoint
@@ -75,7 +75,7 @@ __元素嵌套：__ 一个 XML 元素可以包含多个 XML 元素作为它的�
 
 下面的例子展示了正确的嵌套标签：
 
-```xml
+```
 <?xml version="1.0"?>
 <contact-info>
 <company>TutorialsPoint</company>
@@ -84,14 +84,14 @@ __元素嵌套：__ 一个 XML 元素可以包含多个 XML 元素作为它的�
 
 __根元素：__ 一个 XML 文档只有一个根元素。例如，下面不是一个正确的 XML 文档，因为 x 和 y 元素出现在顶层而没有一个根元素：
 
-```xml
+```
 <x>...</x>
 <y>...</y>
 ```
 
 下面的例子展示了正确形式的 XML 文档：
 
-```xml
+```
 <root>
 	<x>...</x>
 	<y>...</y>
@@ -106,7 +106,7 @@ __区分大小写：__ XML 元素的名称区分大小写。这意味着元素�
 
 __attribute__ 使用名/值对给元素指定一个属性（property）。一个 XML 元素可以有一个或多个属性（attributes）。例如：
 
-```xml
+```
 <a href="http://www.tutorialspoint.com/">Tutorialspoint!</a>
 ```
 
@@ -117,13 +117,13 @@ __attribute__ 使用名/值对给元素指定一个属性（property）。一个
 - XML 属性名区分大小写（和 HTML 不一样）。也就是说 _HREF_ 和 _href_ 会被认为是两个不同的 XML 属性。
 - 在语法中相同的属性不能有两个。下面的例子展示了不正确的语法，因为属性 _b_ 被指定了两次：
 
-```xml
+```
 <a b="x" c="y" b="z">....</a>
 ```
 
 - 属性名定义不带引号标记，而属性值必须显示在引号标记中。下面的例子演示了不正确的 XML 语法：
 
-```xml
+```
 <a b=x>....</a>
 ```
 

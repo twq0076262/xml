@@ -10,7 +10,7 @@
 
 下面是处理指令的语法：
 
-```xml
+```
 <?target instructions?>
 ```
 
@@ -25,7 +25,7 @@
 
 处理指令很少被使用。主要用于连接 XML 文档到样式表。下面是一个例子：
 
-```xml
+```
 <?xml-stylesheet href="tutorialspointstyle.css" type="text/css"?>
 ```
 
@@ -37,7 +37,7 @@
 
 处理指令可以包含除了 ?> 组合之外的任意数据，它被解释为闭合指令。下面是两个有效的处理指令示例：
 
-```xml
+```
 <?welcome to pg=10 of tutorials point?>
 
 <?welcome?>

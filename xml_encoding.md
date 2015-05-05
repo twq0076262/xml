@@ -15,13 +15,13 @@ UTF 表示 _UCS 转换格式_，而 UCS 本身的意义是通用字符集。编�
 
 编码信息包含在 XML 文档的序言部分。UTF-8 编码的语法如下：
 
-```xml
+```
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 ```
 
 UTF-16 编码语法如下：
 
-```xml
+```
 <?xml version="1.0" encoding="UTF-16" standalone="no" ?>
 ```
 
@@ -29,7 +29,7 @@ UTF-16 编码语法如下：
 
 下面的例子展示了编码声明：
 
-```xml
+```
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <contact-info>
 	<name>Tanmay Patil</name>
