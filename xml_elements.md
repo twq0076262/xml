@@ -8,7 +8,7 @@ XML 元素可以被定义为 XML 的构建块。元素可以标签为承载文�
 
 下面是编写 XML 元素的语法：
 
-```xml
+```
 <element-name attribute1 attribute2>
 ....content
 </element-name>
@@ -19,8 +19,8 @@ XML 元素可以被定义为 XML 的构建块。元素可以标签为承载文�
 - __element-name：__ 表示元素的名称。开始和结束标签之间的_名称_必须匹配。
 - __attribute1, attribute2：__ 就是由空格分隔的元素属性。属性（attribute）定义了元素的属性（property）。它关联一个名称和字符串值。属性被写作如下形式：
 
-```xml
-name = "value"
+```
+alue"
 ```
 
 属性_名称_后紧跟一个 = 号以及使用双引号（" "）或者单引号（" "）包裹的字符串_值_。
@@ -29,13 +29,13 @@ name = "value"
 
 空元素（没有内容的元素）语法如下所示：
 
-```xml
+```
 <name attribute1 attribute2.../>
 ```
 
 下面是一个使用各种不同 XML 元素的 XML 文档：
 
-```xml
+```
 <?xml version="1.0"?>
 <contact-info>
 	<address category="residence">

@@ -9,7 +9,7 @@
 
 下面是 CDATA 片段的语法：
 
-```xml
+```
 <![CDATA[
 characters with markup
 ]]>
@@ -25,7 +25,7 @@ characters with markup
 
 下面的标记代码展示了 CDATA。其中写在 CDATA 片段中的字符都会被解析器忽略。
 
-```xml
+```
 <script>
 <![CDATA[
 <message> Welcome to TutorialsPoint </message>

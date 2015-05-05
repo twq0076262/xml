@@ -27,7 +27,7 @@ XML 是一种标记语言，它定义了一组按照人类可读和机器可读�
 
 下面这个例子展示了嵌入一块文本的 XML 标记看起来是什么样子：
 
-```xml
+```
 <message>
 	<text>Hello, world!</text>
 </message>

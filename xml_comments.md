@@ -8,7 +8,7 @@
 
 XML 注释语法如下所示：
 
-```xml
+```
 <!-------Your comment----->
 ```
 
@@ -18,7 +18,7 @@ XML 注释语法如下所示：
 
 下面是在 XML 文档中使用注释的一个演示示例：
 
-```xml
+```
 <?xml version="1.0" encoding="UTF-8" ?>
 <!---Students grades are uploaded by months---->
 <class_list>

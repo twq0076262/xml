@@ -6,7 +6,7 @@
 
 XML 属性语法如下：
 
-```xml
+```
 <element-name attribute1 attribute2 >
 ....content..
 </element-name>
@@ -14,7 +14,7 @@ XML 属性语法如下：
 
 这里 _attribute1_ 和 _attribute2_ 具有以下形式：
 
-```xml
+```
 name = "value"
 ```
 
@@ -22,7 +22,7 @@ _value_ 必须使用双引号（" "）或单引号（" "）包裹。合理 _attr
 
 属性被用来给元素添加一个唯一标签，分类标签，添加布尔值属性或者关联一些字符串数据。下面的示例演示了如何使用属性：
 
-```xml
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE garden [
 	<!ELEMENT garden (plants)*>

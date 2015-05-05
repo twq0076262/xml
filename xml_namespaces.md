@@ -8,7 +8,7 @@
 
 命名空间使用保留属性声明。这种属性名必须是 __xmlns__ 或者以 __xmlns:__ 开头。如下所示：
 
-```xml
+```
 <element xmlns:name="URL">
 ```
 
@@ -22,7 +22,7 @@
 
 命名空间只影响文档中有限的区域。包含这个声明的元素以及其所有子元素都在命名空间范围之内。下面是一个 XML 命名空间的简单示例：
 
-```xml
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <cont:contact xmlns:cont="www.tutorialspoint.com/profile">
 	<cont:name>Tanmay Patil</cont:name>

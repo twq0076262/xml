@@ -4,7 +4,7 @@
 
 接下来让我们来探索一下可以查看一个 XML 文件的各种方法。下面这个示例（sample.xml）适用于本章所有章节。
 
-```xml
+```
 <?xml version="1.0"?>
 <contact-info>
 	<name>Tanmay Patil</name>
@@ -35,7 +35,7 @@
 
 如果我们的 XML 代码中缺失某些标签，浏览器中会显示一个消息。我们可以尝试在 Chrome 中打开下面的 XML 文件。
 
-```xml
+```
 <?xml version="1.0"?>
 <contact-info>
 	<name>Tanmay Patil</name>

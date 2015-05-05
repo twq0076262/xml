@@ -8,7 +8,7 @@ XML DTD 可以指定在文档内部，也可以保存在单独的文档中然后
 
 DTD 的基本语法如下所示：
 
-```xml
+```
 <!DOCTYPE element DTD identifier
 [
 	declaration1
@@ -32,7 +32,7 @@ _ __[]__ 内是一个可选的实体声明列表，被称作_内部子集_。
 
 内部 DTD 语法如下所示：
 
-```xml
+```
 <!DOCTYPE root-element [element-declarations]>
 ```
 
@@ -42,7 +42,7 @@ _ __[]__ 内是一个可选的实体声明列表，被称作_内部子集_。
 
 下面是一个内部 DTD 的简单示例：
 
-```xml
+```
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <!DOCTYPE address [
 <!ELEMENT address (name,company,phone)>
@@ -61,13 +61,13 @@ _ __[]__ 内是一个可选的实体声明列表，被称作_内部子集_。
 
 __开始声明__ - 使用如下语句开始 XML 声明：
 
-```xml
+```
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 ```
 
 __DTD__ - 紧跟在 XML 头后面，_文档类型声明_如下，通常被称为 DOCTYPE：
 
-```xml
+```
 <!DOCTYPE address [
 ```
 
@@ -75,7 +75,7 @@ DOCTYPE 声明在元素名称的开头包含一个感叹号(!)。DOCTYPE 会通�
 
 __DTD Body__ - DOCTYPE 声明后面紧跟 DTD 体，这里我们声明元素，属性，实体和符号：
 
-```xml
+```
 <!ELEMENT address (name,company,phone)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT company (#PCDATA)>
@@ -100,7 +100,7 @@ __结束声明__ - 最后，DTD 的声明部分使用方括号和尖括号（]>�
 
 下面是外部 DTD 的语法：
 
-```xml
+```
 <!DOCTYPE root-element SYSTEM "file-name">
 ```
 
@@ -110,7 +110,7 @@ __结束声明__ - 最后，DTD 的声明部分使用方括号和尖括号（]>�
 
 下面的示例展示了外部 DTD 的用法：
 
-```xml
+```
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE address SYSTEM "address.dtd">
 <address>
@@ -122,7 +122,7 @@ __结束声明__ - 最后，DTD 的声明部分使用方括号和尖括号（]>�
 
 DTD 文件 __address.dtd__ 的内容如下所示：
 
-```xml
+```
 <!ELEMENT address (name,company,phone)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT company (#PCDATA)>
@@ -137,7 +137,7 @@ __系统标示符__
 
 系统标示符允许我们指定包含 DTD 声明的外部文件的位置。语法如下：
 
-```xml
+```
 <!DOCTYPE name SYSTEM "address.dtd" [...]>
 ```
 
@@ -147,7 +147,7 @@ __公共标示符__
 
 公共标示符提供了一种定位 DTD 资源的机制，写法如下：
 
-```xml
+```
 <!DOCTYPE name PUBLIC "-//Beginning XML//DTD Address Example//EN">
 ```
 

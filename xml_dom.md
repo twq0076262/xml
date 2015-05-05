@@ -10,7 +10,7 @@ DOM 文档就是一个节点集合或者按照层次结构组织的信息块。�
 
 下面的示例（sample.htm）将一个 XML 文档（"address.xml"）解析为一个 XML DOM 对象，然后用 JavaScript 提取了一些信息：
 
-```html
+```
 <!DOCTYPE html>
 <html>
 <body>
@@ -43,7 +43,7 @@ xmlDoc.getElementsByTagName("phone")[0].childNodes[0].nodeValue;
 
 __address.xml__ 的内容如下：
 
-```xml
+```
 <?xml version="1.0"?>
 <contact-info>
 	<name>Tanmay Patil</name>
