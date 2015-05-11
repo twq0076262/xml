@@ -1,8 +1,6 @@
 # XML 命名空间
 
-> 缺一段
-
-命名空间就是一组唯一名称。命名空间是一种通过确定那个元素和属性名可以分组的机制。命名空间通过 URI（统一资源标示符） 识别。
+命名空间就是一组唯一名称。命名空间是确定哪个元素和属性名可以被分配到某个组的一种机制。命名空间通过 URI（统一资源标示符）识别。
 
 ## 命名空间声明
 
@@ -31,4 +29,4 @@
 </cont:contact>
 ```
 
-这里，命名空间前缀是 __cont__，标示符（URI）是 _www.tutorialspoint.com/profile_。这意味着，带有 __cont__ 前缀元素名和属性名都（包括 contact 元素）术语 _www.tutorialspoint.com/profile_ 这个命名空间。
+这里，命名空间前缀是 __cont__，标示符（URI）是 _www.tutorialspoint.com/profile_。这意味着，带有 __cont__ 前缀元素名和属性名都（包括 contact 元素）属于 _www.tutorialspoint.com/profile_ 这个命名空间。
