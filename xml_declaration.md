@@ -4,7 +4,7 @@
 
 ## 语法
 
-下面展示了 XML 声明的语法：
+下面是语法展示了 XML 声明：
 
 ```
 <?xml
@@ -45,14 +45,14 @@
 
 ## 规则
 
-XML 声明应该遵守下列规则：
+XML 声明应该遵守以下规则：
 
 - 如果 XML 声明出现在 XML 中，必须把它放在这个 XML 文档的第一行。
 - 如果包含 XML 声明，就必须包含版本号属性。
 - 参数名和值区分大小写。
 - 放置参数的顺序很重要。正确的顺序是：_version_，_encoding_ 和 _standalone_。
 - 可以使用单引号或双引号。
-- XML 声明没有闭合标签，比如`</?xml>`。
+- XML 声明没有闭合标签，比如&lt;/?xml&gt;。
 
 ### XML 声明示例
 
@@ -73,11 +73,11 @@ XML 声明应该遵守下列规则：
 带所有参数定义的 XML 声明：
 
 ```
-<?xml version="1.0" encoding="UTF-8" standalone="no" >
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 ```
 
 所有参数定义使用单引号包裹值的 XML 声明：
 
 ```
-<?xml version='1.0' encoding='iso-8859-1' standalone='no' >
+<?xml version='1.0' encoding='iso-8859-1' standalone='no' ?>
 ```
